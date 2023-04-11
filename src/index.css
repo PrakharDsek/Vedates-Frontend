@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100&family=Montserrat:wght@200&family=Noto+Sans:wght@200&family=Open+Sans&family=Roboto:wght@300&display=swap");
+
+:root {
+  font-family: "Hanken Grotesk", sans-serif, "Montserrat", sans-serif,
+    "Noto Sans", sans-serif, "Open Sans", sans-serif, "Roboto", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background: -webkit-linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.hover:hover {
+  cursor: pointer;
+  color: #6b6c6c;
+}
+
+@media (max-width: 760px) {
+  body {
+    font-size: 14px !important;
+  }
+}
